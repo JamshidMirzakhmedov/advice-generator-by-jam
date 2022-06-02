@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+
+  background-color: hsl(193, 38%, 86%);
+}
+.home {
+  width: 80%;
+  height: 500px;
+  margin: 50px auto;
+  background-color: hsl(218, 23%, 16%);
+  position: relative;
+}
+.advice-box {
+  width: 50%;
+  height: 60%;
+  position: relative;
+  top: 25%;
+  left: 23%;
+  border-radius: 10%;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  /* max-width: fit-content; */
+}
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  font-size: 13px;
+  position: relative;
+  top: 20px;
+}
+
+.advice-content {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+hr {
+  background-color: hsl(192, 18%, 37%);
+  width: 200px;
+  margin: 20px auto;
+  display: inline-block;
+  border: 0;
+  height: 1px;
+}
+.symbol {
+  color: hsl(193, 38%, 86%);
+  position: relative;
+  top: -10px;
+  font-size: 30px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  display: inline-block;
+}
+
+.btn {
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: hsl(150, 100%, 66%);
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: -20px;
+  left: 46%;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 20px 5px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 425px) {
+  .home {
+    margin: 150px auto;
+  }
+  .advice-box {
+    width: 70%;
+    height: 60%;
+    position: relative;
+    top: 20%;
+    left: 15%;
+  }
+  .advice-content {
+    font-size: 17px;
+  }
+  hr {
+    width: 50px;
+  }
+  .btn {
+    left: 40%;
+  }
+}
